@@ -32,7 +32,7 @@ def factorial(number: int) -> int:
     value = 1
     for i in range(1, number + 1):
         value *= i
-    return value
+    return -1
 
 
 def factorial_recursive(n: int) -> int:
